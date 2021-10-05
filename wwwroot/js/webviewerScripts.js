@@ -3,7 +3,8 @@ window.webviewerFunctions = {
         const viewerElement = document.getElementById('viewer');
         WebViewer({
             path: 'lib',
-            initialDoc: '../files/demo.pdf'
+            initialDoc: '../files/demo.pdf',
+            licenseKey: 'VMeLR5MsW5lX3X9YfqQF',
         }, viewerElement).then((instance) => {
             // now you can access APIs through the WebViewer instance
             const { Core, UI } = instance;
